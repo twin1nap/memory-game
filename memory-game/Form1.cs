@@ -13,7 +13,7 @@ namespace memory_game
     public partial class Form1 : Form
     {
         int btn_count = 0;
-        string[] clicked_buttons = new string[2];
+        string[] clicked_buttons_tag = new string[2];
         Image[] card_img = new Image[4]
         {
             Properties.Resources.HondFoto1,
@@ -81,14 +81,14 @@ namespace memory_game
 
             if (btn_count == 1)
             {
-                clicked_buttons[0] = button.Tag.ToString();
+                clicked_buttons_tag[0] = button.Tag.ToString();
             }
             else if (btn_count == 2)
             {
                 btn_count = 3;//zorgt er voor dat er niets gebeurt bij de derde klik
-                clicked_buttons[1] = button.Tag.ToString();
+                clicked_buttons_tag[1] = button.Tag.ToString();
                 //zelfde detectie
-                if (clicked_buttons[0] == clicked_buttons[1])
+                if (clicked_buttons_tag[0] == clicked_buttons_tag[1])
                 {
                     label1.Text = "ze zijn hetzelfde";
                 }
