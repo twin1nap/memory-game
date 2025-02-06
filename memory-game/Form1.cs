@@ -117,23 +117,23 @@ namespace memory_game
         //compaire cards
         private void Card_Click(object sender, EventArgs e)
         {
-            Button button = sender as Button;
+            Button card = sender as Button;
 
             if (btn_count < 2)
             {
-                button.FlatAppearance.BorderColor = Color.Red;
+                card.FlatAppearance.BorderColor = Color.Red;
                 btn_count++;
-                button.FlatAppearance.BorderSize = 3;
+                card.FlatAppearance.BorderSize = 3;
             }
 
             if (btn_count == 1)
             {
-                clicked_buttons_tag[0] = button.Tag.ToString();
+                clicked_buttons_tag[0] = card.Tag.ToString();
             }
             else if (btn_count == 2)
             {
                 btn_count = 3;//zorgt er voor dat er niets gebeurt bij de derde klik
-                clicked_buttons_tag[1] = button.Tag.ToString();
+                clicked_buttons_tag[1] = card.Tag.ToString();
                 //zelfde detectie
                 if (clicked_buttons_tag[0] == clicked_buttons_tag[1])
                 {
