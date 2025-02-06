@@ -53,7 +53,7 @@
             this.card1.FlatAppearance.BorderSize = 0;
             this.card1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.card1.Image = ((System.Drawing.Image)(resources.GetObject("card1.Image")));
-            this.card1.Location = new System.Drawing.Point(12, 24);
+            this.card1.Location = new System.Drawing.Point(205, 24);
             this.card1.Name = "card1";
             this.card1.Size = new System.Drawing.Size(175, 175);
             this.card1.TabIndex = 0;
@@ -67,7 +67,7 @@
             this.card2.FlatAppearance.BorderSize = 0;
             this.card2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.card2.Image = ((System.Drawing.Image)(resources.GetObject("card2.Image")));
-            this.card2.Location = new System.Drawing.Point(243, 24);
+            this.card2.Location = new System.Drawing.Point(436, 24);
             this.card2.Name = "card2";
             this.card2.Size = new System.Drawing.Size(175, 184);
             this.card2.TabIndex = 1;
@@ -81,7 +81,7 @@
             this.card5.FlatAppearance.BorderSize = 0;
             this.card5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.card5.Image = ((System.Drawing.Image)(resources.GetObject("card5.Image")));
-            this.card5.Location = new System.Drawing.Point(12, 231);
+            this.card5.Location = new System.Drawing.Point(205, 231);
             this.card5.Name = "card5";
             this.card5.Size = new System.Drawing.Size(175, 175);
             this.card5.TabIndex = 2;
@@ -95,7 +95,7 @@
             this.card6.FlatAppearance.BorderSize = 0;
             this.card6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.card6.Image = ((System.Drawing.Image)(resources.GetObject("card6.Image")));
-            this.card6.Location = new System.Drawing.Point(243, 231);
+            this.card6.Location = new System.Drawing.Point(436, 231);
             this.card6.Name = "card6";
             this.card6.Size = new System.Drawing.Size(175, 175);
             this.card6.TabIndex = 3;
@@ -109,7 +109,7 @@
             this.card3.FlatAppearance.BorderSize = 0;
             this.card3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.card3.Image = ((System.Drawing.Image)(resources.GetObject("card3.Image")));
-            this.card3.Location = new System.Drawing.Point(473, 24);
+            this.card3.Location = new System.Drawing.Point(666, 24);
             this.card3.Name = "card3";
             this.card3.Size = new System.Drawing.Size(175, 175);
             this.card3.TabIndex = 5;
@@ -123,7 +123,7 @@
             this.card4.FlatAppearance.BorderSize = 0;
             this.card4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.card4.Image = ((System.Drawing.Image)(resources.GetObject("card4.Image")));
-            this.card4.Location = new System.Drawing.Point(704, 19);
+            this.card4.Location = new System.Drawing.Point(897, 19);
             this.card4.Name = "card4";
             this.card4.Size = new System.Drawing.Size(175, 184);
             this.card4.TabIndex = 6;
@@ -137,7 +137,7 @@
             this.card7.FlatAppearance.BorderSize = 0;
             this.card7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.card7.Image = ((System.Drawing.Image)(resources.GetObject("card7.Image")));
-            this.card7.Location = new System.Drawing.Point(473, 231);
+            this.card7.Location = new System.Drawing.Point(666, 231);
             this.card7.Name = "card7";
             this.card7.Size = new System.Drawing.Size(175, 175);
             this.card7.TabIndex = 7;
@@ -151,7 +151,7 @@
             this.card8.FlatAppearance.BorderSize = 0;
             this.card8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.card8.Image = ((System.Drawing.Image)(resources.GetObject("card8.Image")));
-            this.card8.Location = new System.Drawing.Point(704, 231);
+            this.card8.Location = new System.Drawing.Point(897, 231);
             this.card8.Name = "card8";
             this.card8.Size = new System.Drawing.Size(175, 175);
             this.card8.TabIndex = 8;
@@ -165,7 +165,7 @@
             this.card9.FlatAppearance.BorderSize = 0;
             this.card9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.card9.Image = ((System.Drawing.Image)(resources.GetObject("card9.Image")));
-            this.card9.Location = new System.Drawing.Point(12, 438);
+            this.card9.Location = new System.Drawing.Point(205, 438);
             this.card9.Name = "card9";
             this.card9.Size = new System.Drawing.Size(175, 175);
             this.card9.TabIndex = 9;
@@ -179,7 +179,7 @@
             this.card10.FlatAppearance.BorderSize = 0;
             this.card10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.card10.Image = ((System.Drawing.Image)(resources.GetObject("card10.Image")));
-            this.card10.Location = new System.Drawing.Point(243, 438);
+            this.card10.Location = new System.Drawing.Point(436, 438);
             this.card10.Name = "card10";
             this.card10.Size = new System.Drawing.Size(175, 184);
             this.card10.TabIndex = 10;
@@ -193,7 +193,7 @@
             this.card13.FlatAppearance.BorderSize = 0;
             this.card13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.card13.Image = ((System.Drawing.Image)(resources.GetObject("card13.Image")));
-            this.card13.Location = new System.Drawing.Point(12, 645);
+            this.card13.Location = new System.Drawing.Point(205, 645);
             this.card13.Name = "card13";
             this.card13.Size = new System.Drawing.Size(175, 175);
             this.card13.TabIndex = 11;
@@ -207,7 +207,7 @@
             this.card14.FlatAppearance.BorderSize = 0;
             this.card14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.card14.Image = ((System.Drawing.Image)(resources.GetObject("card14.Image")));
-            this.card14.Location = new System.Drawing.Point(243, 645);
+            this.card14.Location = new System.Drawing.Point(436, 645);
             this.card14.Name = "card14";
             this.card14.Size = new System.Drawing.Size(175, 175);
             this.card14.TabIndex = 12;
@@ -221,7 +221,7 @@
             this.card11.FlatAppearance.BorderSize = 0;
             this.card11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.card11.Image = ((System.Drawing.Image)(resources.GetObject("card11.Image")));
-            this.card11.Location = new System.Drawing.Point(473, 438);
+            this.card11.Location = new System.Drawing.Point(666, 438);
             this.card11.Name = "card11";
             this.card11.Size = new System.Drawing.Size(175, 175);
             this.card11.TabIndex = 14;
@@ -235,7 +235,7 @@
             this.card12.FlatAppearance.BorderSize = 0;
             this.card12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.card12.Image = ((System.Drawing.Image)(resources.GetObject("card12.Image")));
-            this.card12.Location = new System.Drawing.Point(704, 433);
+            this.card12.Location = new System.Drawing.Point(897, 433);
             this.card12.Name = "card12";
             this.card12.Size = new System.Drawing.Size(175, 184);
             this.card12.TabIndex = 15;
@@ -249,7 +249,7 @@
             this.card15.FlatAppearance.BorderSize = 0;
             this.card15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.card15.Image = ((System.Drawing.Image)(resources.GetObject("card15.Image")));
-            this.card15.Location = new System.Drawing.Point(473, 645);
+            this.card15.Location = new System.Drawing.Point(666, 645);
             this.card15.Name = "card15";
             this.card15.Size = new System.Drawing.Size(175, 175);
             this.card15.TabIndex = 16;
@@ -263,7 +263,7 @@
             this.card16.FlatAppearance.BorderSize = 0;
             this.card16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.card16.Image = ((System.Drawing.Image)(resources.GetObject("card16.Image")));
-            this.card16.Location = new System.Drawing.Point(704, 645);
+            this.card16.Location = new System.Drawing.Point(897, 645);
             this.card16.Name = "card16";
             this.card16.Size = new System.Drawing.Size(175, 175);
             this.card16.TabIndex = 17;
@@ -275,7 +275,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(991, 914);
+            this.ClientSize = new System.Drawing.Size(1100, 914);
             this.Controls.Add(this.card16);
             this.Controls.Add(this.card15);
             this.Controls.Add(this.card12);

@@ -13,7 +13,7 @@ namespace memory_game
     public partial class game : Form
     {
         int btn_count = 0;
-        string[] clicked_buttons_tag = new string[2];
+        Button[] clicked_buttons = new Button[2];
         Image[] card_img = new Image[16]
         {
             Properties.Resources.HondFoto1,
@@ -132,29 +132,30 @@ namespace memory_game
 
             if (btn_count == 1)
             {
-                clicked_buttons_tag[0] = card.Tag.ToString();
+                clicked_buttons[0] = card;
                 card.Image = card_img[int.Parse(card.Name.Substring(4)) -1];
             }
             else if (btn_count == 2)
             {
                 btn_count = 3;//zorgt er voor dat er niets gebeurt bij de derde klik
                 card.Image = card_img[int.Parse(card.Name.Substring(4)) - 1];
-                clicked_buttons_tag[1] = card.Tag.ToString();
+                clicked_buttons[1] = card;
                 //zelfde detectie
-                if (clicked_buttons_tag[0] == clicked_buttons_tag[1])
-                {
-                    Console.WriteLine("ze zijn hetzelfde");
-                }
-                else
-                {
-                    Console.WriteLine("ze zijn niet hetzelfde");
-                }
-
-               await Task.Delay(1000); // 1000 ms = 1 second
-
+                await Task.Delay(1000); // 1000 ms = 1 second
                 reset_cards();
                 btn_count = 0;
-                clicked_buttons_tag = new string[2];
+                if (clicked_buttons[0].Tag == clicked_buttons[1].Tag)
+                {
+                    //Console.WriteLine("ze zijn hetzelfde");
+                    clicked_buttons[0].Visible = false;
+                    clicked_buttons[1].Visible = false;
+                }
+                clicked_buttons = new Button[2];
+                //else
+                //{
+                //    //Console.WriteLine("ze zijn niet hetzelfde");
+                //    await Task.Delay(1000); // 1000 ms = 1 second    
+                //}
 
             }
 
