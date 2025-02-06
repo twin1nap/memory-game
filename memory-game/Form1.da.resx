@@ -117,60 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="card1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="card1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>205, 24</value>
-  </data>
-  <data name="card1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 175</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="card1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;card1.Name" xml:space="preserve">
-    <value>card1</value>
-  </data>
-  <data name="&gt;&gt;card1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;card1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;card1.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="card2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="card2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>436, 24</value>
-  </data>
-  <data name="card2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 184</value>
-  </data>
-  <data name="card2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;card2.Name" xml:space="preserve">
-    <value>card2</value>
-  </data>
-  <data name="&gt;&gt;card2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;card2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;card2.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="card5.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
   <data name="card5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAkGBxMTEhUTExMWFhUXGBcYGBcYGRoaFxgYGBgXFhofGRga
@@ -355,30 +302,6 @@
         jIyE9gfSFeI66WQKSUkKFSmLnO28LTZiFf8A1KUaS6j7pweoIIfIjyMgz9haSZ6Fk3dA7MfsGjyMjI51
         Nho//9k=
 </value>
-  </data>
-  <data name="card5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>205, 231</value>
-  </data>
-  <data name="card5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 175</value>
-  </data>
-  <data name="card5.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;card5.Name" xml:space="preserve">
-    <value>card5</value>
-  </data>
-  <data name="&gt;&gt;card5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;card5.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;card5.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="card6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
   </data>
   <data name="card6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -565,30 +488,6 @@
         Nho//9k=
 </value>
   </data>
-  <data name="card6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>436, 231</value>
-  </data>
-  <data name="card6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 175</value>
-  </data>
-  <data name="card6.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;card6.Name" xml:space="preserve">
-    <value>card6</value>
-  </data>
-  <data name="&gt;&gt;card6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;card6.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;card6.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="card3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
   <data name="card3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAkGBxMSEhUSEhIVFRUXFxUXFRYYGBcVFRUVFRUXFhUVFRUY
@@ -688,30 +587,6 @@
         ZWAvfmD+EOrXBEAkcjp5puY6AqJV9+CkloW3sDiBfghsSzZJTWCa2MiK5qG5qM7RCaqUFjA1FaU1KoBB
         CFyalQsJ/9k=
 </value>
-  </data>
-  <data name="card3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>666, 24</value>
-  </data>
-  <data name="card3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 175</value>
-  </data>
-  <data name="card3.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;card3.Name" xml:space="preserve">
-    <value>card3</value>
-  </data>
-  <data name="&gt;&gt;card3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;card3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;card3.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="card4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
   </data>
   <data name="card4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -813,30 +688,6 @@
         CFyalQsJ/9k=
 </value>
   </data>
-  <data name="card4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>897, 19</value>
-  </data>
-  <data name="card4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 184</value>
-  </data>
-  <data name="card4.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;card4.Name" xml:space="preserve">
-    <value>card4</value>
-  </data>
-  <data name="&gt;&gt;card4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;card4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;card4.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="card7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
   <data name="card7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAkGBxITEhUSExIWFhUXGBcYFxgVFxcVGBUYGBUXFhoWFxgY
@@ -920,30 +771,6 @@
         iIP/2Q==
 </value>
   </data>
-  <data name="card7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>666, 231</value>
-  </data>
-  <data name="card7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 175</value>
-  </data>
-  <data name="card7.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;card7.Name" xml:space="preserve">
-    <value>card7</value>
-  </data>
-  <data name="&gt;&gt;card7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;card7.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;card7.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="card8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
   <data name="card8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAkGBxITEhUSExIWFhUXGBcYFxgVFxcVGBUYGBUXFhoWFxgY
@@ -1026,30 +853,6 @@
         73RFmEhTQYX0iICIiAiIgIiIELEIiBCQiIEJCIgxCQiIEJCIgQkIiBCQiIMwkIiBCQiIMoiICIiAiIgI
         iIP/2Q==
 </value>
-  </data>
-  <data name="card8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>897, 231</value>
-  </data>
-  <data name="card8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 175</value>
-  </data>
-  <data name="card8.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;card8.Name" xml:space="preserve">
-    <value>card8</value>
-  </data>
-  <data name="&gt;&gt;card8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;card8.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;card8.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="card9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
   </data>
   <data name="card9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1205,30 +1008,6 @@
         mAZ3hcuXKKA//9k=
 </value>
   </data>
-  <data name="card9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>205, 438</value>
-  </data>
-  <data name="card9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 175</value>
-  </data>
-  <data name="card9.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;card9.Name" xml:space="preserve">
-    <value>card9</value>
-  </data>
-  <data name="&gt;&gt;card9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;card9.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;card9.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="card10.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
   <data name="card10.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAkGBxMTEhUTExMWFhUXFxUXGBYWFxYYFxgYGBcXFxYWGBYY
@@ -1383,30 +1162,6 @@
         mAZ3hcuXKKA//9k=
 </value>
   </data>
-  <data name="card10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>436, 438</value>
-  </data>
-  <data name="card10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 184</value>
-  </data>
-  <data name="card10.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;card10.Name" xml:space="preserve">
-    <value>card10</value>
-  </data>
-  <data name="&gt;&gt;card10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;card10.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;card10.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="card13.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
   <data name="card13.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAkGBxMTERUTEhIWFhUVFRgaFxUWGBgXGBUWFhgXFxYYGRcY
@@ -1504,30 +1259,6 @@
         IAiIgP/Z
 </value>
   </data>
-  <data name="card13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>205, 645</value>
-  </data>
-  <data name="card13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 175</value>
-  </data>
-  <data name="card13.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;card13.Name" xml:space="preserve">
-    <value>card13</value>
-  </data>
-  <data name="&gt;&gt;card13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;card13.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;card13.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="card14.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
   <data name="card14.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAkGBxMTERUTEhIWFhUVFRgaFxUWGBgXGBUWFhgXFxYYGRcY
@@ -1624,30 +1355,6 @@
         4F9QBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBYoiAIiIAiIgPoREQH0IiIAiIgCIiAIi
         IAiIgP/Z
 </value>
-  </data>
-  <data name="card14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>436, 645</value>
-  </data>
-  <data name="card14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 175</value>
-  </data>
-  <data name="card14.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;card14.Name" xml:space="preserve">
-    <value>card14</value>
-  </data>
-  <data name="&gt;&gt;card14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;card14.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;card14.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="card11.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
   </data>
   <data name="card11.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1762,30 +1469,6 @@
         4bykksnFdmwk+juxWK71IDifRWrJ8UHM3SSRgf3DOvpZIEoFJJXEQEEkkABBJJAAKSSSAGpSgkgD/9k=
 </value>
   </data>
-  <data name="card11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>666, 438</value>
-  </data>
-  <data name="card11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 175</value>
-  </data>
-  <data name="card11.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;card11.Name" xml:space="preserve">
-    <value>card11</value>
-  </data>
-  <data name="&gt;&gt;card11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;card11.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;card11.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="card12.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
   <data name="card12.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAkGBxASEhUSEBAVFRUWFRcXFhcXGBUXFxgVFxEWFxUVFxcY
@@ -1898,30 +1581,6 @@
         EnccLH7JJJj7Erocz4vxSabjFxI+c+qlqWJ0tAg3MybyPPnCSSED2cuYYH4z7T1PMx8l05fgg1xIMFtz
         4bykksnFdmwk+juxWK71IDifRWrJ8UHM3SSRgf3DOvpZIEoFJJXEQEEkkABBJJAAKSSSAGpSgkgD/9k=
 </value>
-  </data>
-  <data name="card12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>897, 433</value>
-  </data>
-  <data name="card12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 184</value>
-  </data>
-  <data name="card12.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;card12.Name" xml:space="preserve">
-    <value>card12</value>
-  </data>
-  <data name="&gt;&gt;card12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;card12.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;card12.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="card15.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
   </data>
   <data name="card15.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2048,30 +1707,6 @@
         MXZADG7nfyQFrSiFixMYJYUgQiqNRYsWHBLSpA5YsXHEdR0KPMsWLmcYtXFeLERjP//Z
 </value>
   </data>
-  <data name="card15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>666, 645</value>
-  </data>
-  <data name="card15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 175</value>
-  </data>
-  <data name="card15.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;card15.Name" xml:space="preserve">
-    <value>card15</value>
-  </data>
-  <data name="&gt;&gt;card15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;card15.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;card15.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="card16.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
   <data name="card16.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAkGBxMTEhUTExIVFRUXFRYYGBYYFRUVFRcYFRUWFhcXFxUY
@@ -2197,120 +1832,6 @@
         MXZADG7nfyQFrSiFixMYJYUgQiqNRYsWHBLSpA5YsXHEdR0KPMsWLmcYtXFeLERjP//Z
 </value>
   </data>
-  <data name="card16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>897, 645</value>
-  </data>
-  <data name="card16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 175</value>
-  </data>
-  <data name="card16.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;card16.Name" xml:space="preserve">
-    <value>card16</value>
-  </data>
-  <data name="&gt;&gt;card16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;card16.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;card16.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="txtTimer.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtTimer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>57, 71</value>
-  </data>
-  <data name="txtTimer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 16</value>
-  </data>
-  <data name="txtTimer.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="txtTimer.Text" xml:space="preserve">
-    <value>Timer: 00:00</value>
-  </data>
-  <data name="&gt;&gt;txtTimer.Name" xml:space="preserve">
-    <value>txtTimer</value>
-  </data>
-  <data name="&gt;&gt;txtTimer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtTimer.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txtTimer.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="txtScore.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtScore.Location" type="System.Drawing.Point, System.Drawing">
-    <value>56, 253</value>
-  </data>
-  <data name="txtScore.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 16</value>
-  </data>
-  <data name="txtScore.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="txtScore.Text" xml:space="preserve">
-    <value>Score: 0</value>
-  </data>
-  <data name="&gt;&gt;txtScore.Name" xml:space="preserve">
-    <value>txtScore</value>
-  </data>
-  <data name="&gt;&gt;txtScore.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtScore.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txtScore.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="txtBeurten.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtBeurten.Location" type="System.Drawing.Point, System.Drawing">
-    <value>59, 413</value>
-  </data>
-  <data name="txtBeurten.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 16</value>
-  </data>
-  <data name="txtBeurten.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="txtBeurten.Text" xml:space="preserve">
-    <value>Beurten: 0</value>
-  </data>
-  <data name="&gt;&gt;txtBeurten.Name" xml:space="preserve">
-    <value>txtBeurten</value>
-  </data>
-  <data name="&gt;&gt;txtBeurten.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtBeurten.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txtBeurten.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1100, 847</value>
-  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAIBgAAAEAIACIDAAAFgAAACgAAAAgAAAAMAAAAAEAIAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAA
@@ -2368,29 +1889,5 @@
         6wAAAAAAAAAAAAAAAADwAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AA
         AB/wAAAf8AAAH/AAAB/wAAAf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/gAEB8=
 </value>
-  </data>
-  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, -50</value>
-  </data>
-  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1118, 894</value>
-  </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1118, 894</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>memory game</value>
-  </data>
-  <data name="&gt;&gt;timer.Name" xml:space="preserve">
-    <value>timer</value>
-  </data>
-  <data name="&gt;&gt;timer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>game</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
