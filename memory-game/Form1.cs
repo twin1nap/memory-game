@@ -141,7 +141,7 @@ namespace memory_game
                 card.Image = card_img[int.Parse(card.Name.Substring(4)) - 1];
                 clicked_buttons[1] = card;
                 //zelfde detectie
-                await Task.Delay(1000); // 1000 ms = 1 second
+                await Task.Delay(1000); // 1000 ms = 1 second //veranderen met timer
                 reset_cards();
                 btn_count = 0;
                 if (clicked_buttons[0].Tag == clicked_buttons[1].Tag)
