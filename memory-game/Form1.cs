@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,6 +17,7 @@ namespace memory_game
         int Score = 0;
         int Beurten = 0;
         Button[] clicked_buttons = new Button[2];
+        int time = 0;
         Image[] card_img = new Image[16]
         {
             Properties.Resources.HondFoto1,
@@ -85,7 +87,7 @@ namespace memory_game
 
         //asign images to buttons
         private void Form1_Load(object sender, EventArgs e)
-        {
+        { 
             //shuffle cards using fisher-yates shuffle (learned from chatgpt creatued by typing for and tab and that made whole code)
             for (int i = card_img.Length - 1; i > 0; i--)
             {
@@ -134,6 +136,11 @@ namespace memory_game
 
             if (btn_count == 1)
             {
+
+                if (timer.Enabled == false)
+                {
+                    timer.Start();
+                }
                 clicked_buttons[0] = card;
                 card.Image = card_img[int.Parse(card.Name.Substring(4)) -1];
             }
@@ -152,6 +159,10 @@ namespace memory_game
                     clicked_buttons[0].Visible = false;
                     clicked_buttons[1].Visible = false;
                     Score += 10;
+                    if (Score >= 80)
+                    {
+                        timer.Stop();
+                    }
                 }
                 Beurten++;
                 txtScore.Text = "Score: " + Score.ToString();
@@ -167,5 +178,29 @@ namespace memory_game
 
         }
 
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            time++;
+            int minutes = time / 60;
+            int seconds = time % 60;
+            string time_text = "";
+            if (minutes < 10)
+            {
+                time_text += "0" + minutes.ToString() + ":";
+            }
+            else
+            {
+                time_text += minutes.ToString() + ":";
+            }
+            if (seconds < 10)
+            {
+                time_text += "0" + seconds.ToString();
+            }
+            else
+            {
+                time_text += seconds.ToString();
+            }
+            txtTimer.Text = "Timer: " + time_text;
+        }
     }
 }

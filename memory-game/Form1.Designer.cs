@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(game));
             this.card1 = new System.Windows.Forms.Button();
             this.card2 = new System.Windows.Forms.Button();
@@ -48,6 +49,7 @@
             this.txtTimer = new System.Windows.Forms.Label();
             this.txtScore = new System.Windows.Forms.Label();
             this.txtBeurten = new System.Windows.Forms.Label();
+            this.timer = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // card1
@@ -279,9 +281,9 @@
             this.txtTimer.AutoSize = true;
             this.txtTimer.Location = new System.Drawing.Point(57, 71);
             this.txtTimer.Name = "txtTimer";
-            this.txtTimer.Size = new System.Drawing.Size(45, 16);
+            this.txtTimer.Size = new System.Drawing.Size(79, 16);
             this.txtTimer.TabIndex = 18;
-            this.txtTimer.Text = "Timer:";
+            this.txtTimer.Text = "Timer: 00:00";
             // 
             // txtScore
             // 
@@ -300,6 +302,11 @@
             this.txtBeurten.Size = new System.Drawing.Size(66, 16);
             this.txtBeurten.TabIndex = 20;
             this.txtBeurten.Text = "Beurten: 0";
+            // 
+            // timer
+            // 
+            this.timer.Interval = 1000;
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
             // 
             // game
             // 
@@ -355,6 +362,7 @@
         private System.Windows.Forms.Label txtTimer;
         private System.Windows.Forms.Label txtScore;
         private System.Windows.Forms.Label txtBeurten;
+        private System.Windows.Forms.Timer timer;
     }
 }
 
