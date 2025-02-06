@@ -45,6 +45,9 @@
             this.card12 = new System.Windows.Forms.Button();
             this.card15 = new System.Windows.Forms.Button();
             this.card16 = new System.Windows.Forms.Button();
+            this.txtTimer = new System.Windows.Forms.Label();
+            this.txtScore = new System.Windows.Forms.Label();
+            this.txtBeurten = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // card1
@@ -271,11 +274,41 @@
             this.card16.UseVisualStyleBackColor = true;
             this.card16.Click += new System.EventHandler(this.Card_Click);
             // 
+            // txtTimer
+            // 
+            this.txtTimer.AutoSize = true;
+            this.txtTimer.Location = new System.Drawing.Point(57, 71);
+            this.txtTimer.Name = "txtTimer";
+            this.txtTimer.Size = new System.Drawing.Size(45, 16);
+            this.txtTimer.TabIndex = 18;
+            this.txtTimer.Text = "Timer:";
+            // 
+            // txtScore
+            // 
+            this.txtScore.AutoSize = true;
+            this.txtScore.Location = new System.Drawing.Point(56, 253);
+            this.txtScore.Name = "txtScore";
+            this.txtScore.Size = new System.Drawing.Size(56, 16);
+            this.txtScore.TabIndex = 19;
+            this.txtScore.Text = "Score: 0";
+            // 
+            // txtBeurten
+            // 
+            this.txtBeurten.AutoSize = true;
+            this.txtBeurten.Location = new System.Drawing.Point(59, 413);
+            this.txtBeurten.Name = "txtBeurten";
+            this.txtBeurten.Size = new System.Drawing.Size(66, 16);
+            this.txtBeurten.TabIndex = 20;
+            this.txtBeurten.Text = "Beurten: 0";
+            // 
             // game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1100, 914);
+            this.Controls.Add(this.txtBeurten);
+            this.Controls.Add(this.txtScore);
+            this.Controls.Add(this.txtTimer);
             this.Controls.Add(this.card16);
             this.Controls.Add(this.card15);
             this.Controls.Add(this.card12);
@@ -297,6 +330,7 @@
             this.Text = "memory game";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -318,6 +352,9 @@
         private System.Windows.Forms.Button card12;
         private System.Windows.Forms.Button card15;
         private System.Windows.Forms.Button card16;
+        private System.Windows.Forms.Label txtTimer;
+        private System.Windows.Forms.Label txtScore;
+        private System.Windows.Forms.Label txtBeurten;
     }
 }
 

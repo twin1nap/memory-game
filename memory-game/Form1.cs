@@ -13,6 +13,8 @@ namespace memory_game
     public partial class game : Form
     {
         int btn_count = 0;
+        int Score = 0;
+        int Beurten = 0;
         Button[] clicked_buttons = new Button[2];
         Image[] card_img = new Image[16]
         {
@@ -149,7 +151,11 @@ namespace memory_game
                     //Console.WriteLine("ze zijn hetzelfde");
                     clicked_buttons[0].Visible = false;
                     clicked_buttons[1].Visible = false;
+                    Score += 10;
                 }
+                Beurten++;
+                txtScore.Text = "Score: " + Score.ToString();
+                txtBeurten.Text = "Beurten: " + Beurten.ToString();
                 clicked_buttons = new Button[2];
                 //else
                 //{
