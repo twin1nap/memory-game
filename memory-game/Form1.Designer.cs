@@ -1,6 +1,6 @@
 ﻿namespace memory_game
 {
-    partial class form1
+    partial class game
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(game));
             this.card1 = new System.Windows.Forms.Button();
             this.card2 = new System.Windows.Forms.Button();
             this.card5 = new System.Windows.Forms.Button();
@@ -271,7 +271,7 @@
             this.card16.UseVisualStyleBackColor = true;
             this.card16.Click += new System.EventHandler(this.Card_Click);
             // 
-            // form1
+            // game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -292,8 +292,9 @@
             this.Controls.Add(this.card5);
             this.Controls.Add(this.card2);
             this.Controls.Add(this.card1);
-            this.Name = "form1";
-            this.Text = "Form1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "game";
+            this.Text = "memory game";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 

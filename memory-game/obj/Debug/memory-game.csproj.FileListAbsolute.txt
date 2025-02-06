@@ -7,4 +7,4 @@ C:\Users\school\Documents\jaar 1\projecten\memory-game\memory-game\obj\Debug\mem
 C:\Users\school\Documents\jaar 1\projecten\memory-game\memory-game\obj\Debug\memory-game.csproj.CoreCompileInputs.cache
 C:\Users\school\Documents\jaar 1\projecten\memory-game\memory-game\obj\Debug\memory-game.exe
 C:\Users\school\Documents\jaar 1\projecten\memory-game\memory-game\obj\Debug\memory-game.pdb
-C:\Users\school\Documents\jaar 1\projecten\memory-game\memory-game\obj\Debug\memory_game.form1.resources
+C:\Users\school\Documents\jaar 1\projecten\memory-game\memory-game\obj\Debug\memory_game.game.resources

@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace memory_game
 {
-    public partial class form1 : Form
+    public partial class game : Form
     {
         int btn_count = 0;
         string[] clicked_buttons_tag = new string[2];
@@ -56,7 +56,7 @@ namespace memory_game
 
 
 
-        public form1()
+        public game()
         {
             InitializeComponent();
         }
