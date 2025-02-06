@@ -79,37 +79,37 @@ namespace memory_game
             }
 
             //de tags en fots toevoegen aan de buttons
-            card1.Image = card_img[0];
+            card1.Image = Properties.Resources.card_back; 
             card1.Tag = card_tags[0];
-            card2.Image = card_img[1];
+            card2.Image = Properties.Resources.card_back; 
             card2.Tag = card_tags[1];
-            card3.Image = card_img[2];
+            card3.Image = Properties.Resources.card_back; 
             card3.Tag = card_tags[2];
-            card4.Image = card_img[3];
+            card4.Image = Properties.Resources.card_back; 
             card4.Tag = card_tags[3];
-            card5.Image = card_img[4];
+            card5.Image = Properties.Resources.card_back; 
             card5.Tag = card_tags[4];
-            card6.Image = card_img[5];
+            card6.Image = Properties.Resources.card_back; 
             card6.Tag = card_tags[5];
-            card7.Image = card_img[6];
+            card7.Image = Properties.Resources.card_back; 
             card7.Tag = card_tags[6];
-            card8.Image = card_img[7];
+            card8.Image = Properties.Resources.card_back; 
             card8.Tag = card_tags[7];
-            card9.Image = card_img[8];
+            card9.Image = Properties.Resources.card_back; 
             card9.Tag = card_tags[8];
-            card10.Image = card_img[9];
+            card10.Image = Properties.Resources.card_back; 
             card10.Tag = card_tags[9];
-            card11.Image = card_img[10];
+            card11.Image =  Properties.Resources.card_back;
             card11.Tag = card_tags[10];
-            card12.Image = card_img[11];
+            card12.Image =  Properties.Resources.card_back;
             card12.Tag = card_tags[11];
-            card13.Image = card_img[12];
+            card13.Image =  Properties.Resources.card_back;
             card13.Tag = card_tags[12];
-            card14.Image = card_img[13];
+            card14.Image =  Properties.Resources.card_back;
             card14.Tag = card_tags[13];
-            card15.Image = card_img[14];
+            card15.Image =  Properties.Resources.card_back;
             card15.Tag = card_tags[14];
-            card16.Image = card_img[15];
+            card16.Image =  Properties.Resources.card_back;
             card16.Tag = card_tags[15];
         }
 
@@ -126,13 +126,16 @@ namespace memory_game
                 card.FlatAppearance.BorderSize = 3;
             }
 
+
             if (btn_count == 1)
             {
                 clicked_buttons_tag[0] = card.Tag.ToString();
+                card.Image = card_img[int.Parse(card.Name.Substring(4)) -1];
             }
             else if (btn_count == 2)
             {
                 btn_count = 3;//zorgt er voor dat er niets gebeurt bij de derde klik
+                card.Image = card_img[int.Parse(card.Name.Substring(4)) - 1];
                 clicked_buttons_tag[1] = card.Tag.ToString();
                 //zelfde detectie
                 if (clicked_buttons_tag[0] == clicked_buttons_tag[1])

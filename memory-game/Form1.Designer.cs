@@ -52,7 +52,7 @@
             this.card1.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.card1.FlatAppearance.BorderSize = 0;
             this.card1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.card1.Image = global::memory_game.Properties.Resources.HondFoto1;
+            this.card1.Image = ((System.Drawing.Image)(resources.GetObject("card1.Image")));
             this.card1.Location = new System.Drawing.Point(12, 24);
             this.card1.Name = "card1";
             this.card1.Size = new System.Drawing.Size(175, 175);
@@ -66,7 +66,7 @@
             this.card2.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.card2.FlatAppearance.BorderSize = 0;
             this.card2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.card2.Image = global::memory_game.Properties.Resources.HondFoto1;
+            this.card2.Image = ((System.Drawing.Image)(resources.GetObject("card2.Image")));
             this.card2.Location = new System.Drawing.Point(243, 24);
             this.card2.Name = "card2";
             this.card2.Size = new System.Drawing.Size(175, 184);
@@ -80,7 +80,7 @@
             this.card5.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.card5.FlatAppearance.BorderSize = 0;
             this.card5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.card5.Image = global::memory_game.Properties.Resources.HondFoto3;
+            this.card5.Image = ((System.Drawing.Image)(resources.GetObject("card5.Image")));
             this.card5.Location = new System.Drawing.Point(12, 231);
             this.card5.Name = "card5";
             this.card5.Size = new System.Drawing.Size(175, 175);
@@ -94,7 +94,7 @@
             this.card6.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.card6.FlatAppearance.BorderSize = 0;
             this.card6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.card6.Image = global::memory_game.Properties.Resources.HondFoto3;
+            this.card6.Image = ((System.Drawing.Image)(resources.GetObject("card6.Image")));
             this.card6.Location = new System.Drawing.Point(243, 231);
             this.card6.Name = "card6";
             this.card6.Size = new System.Drawing.Size(175, 175);
@@ -108,7 +108,7 @@
             this.card3.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.card3.FlatAppearance.BorderSize = 0;
             this.card3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.card3.Image = global::memory_game.Properties.Resources.HondFoto2;
+            this.card3.Image = ((System.Drawing.Image)(resources.GetObject("card3.Image")));
             this.card3.Location = new System.Drawing.Point(473, 24);
             this.card3.Name = "card3";
             this.card3.Size = new System.Drawing.Size(175, 175);
@@ -122,7 +122,7 @@
             this.card4.FlatAppearance.BorderColor = System.Drawing.Color.Red;
             this.card4.FlatAppearance.BorderSize = 0;
             this.card4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.card4.Image = global::memory_game.Properties.Resources.HondFoto2;
+            this.card4.Image = ((System.Drawing.Image)(resources.GetObject("card4.Image")));
             this.card4.Location = new System.Drawing.Point(704, 19);
             this.card4.Name = "card4";
             this.card4.Size = new System.Drawing.Size(175, 184);
