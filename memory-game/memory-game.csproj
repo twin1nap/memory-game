@@ -86,5 +86,23 @@
   <ItemGroup>
     <None Include="fotos\HondFoto2.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="fotos\HondFoto3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fotos\HondFoto4.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fotos\HondFoto5.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fotos\HondFoto6.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fotos\HondFoto7.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fotos\HondFoto8.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
