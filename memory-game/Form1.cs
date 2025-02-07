@@ -130,7 +130,7 @@ namespace memory_game
         {
             Button card = sender as Button;
 
-            SoundPlayer sp = new SoundPlayer(CardFlip);
+            SoundPlayer sp = new SoundPlayer(Properties.Resources.CardFlip);
             //sp.Stream = Properties.Resources.CardFlip;
             sp.Play();
 

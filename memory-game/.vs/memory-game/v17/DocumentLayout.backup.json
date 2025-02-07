@@ -22,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -43,9 +47,9 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\tijnd\\OneDrive - COG\\Documents\\GitHub\\memory-game\\memory-game\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\tijnd\\OneDrive - COG\\Documents\\GitHub\\memory-game\\memory-game\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAgwIgAAAAeAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\tijnd\\OneDrive - COG\\Documents\\GitHub\\memory-game\\memory-game\\Form1.cs*",
+              "RelativeToolTip": "Form1.cs*",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAgwIIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T12:44:49.802Z",
               "EditorCaption": ""
@@ -56,8 +60,8 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\tijnd\\OneDrive - COG\\Documents\\GitHub\\memory-game\\memory-game\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\tijnd\\OneDrive - COG\\Documents\\GitHub\\memory-game\\memory-game\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\tijnd\\OneDrive - COG\\Documents\\GitHub\\memory-game\\memory-game\\Form1.cs [Design]*",
+              "RelativeToolTip": "Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-05T13:30:53.161Z",
               "EditorCaption": " [Design]"
