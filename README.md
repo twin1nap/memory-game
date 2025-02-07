@@ -1,2 +1,2 @@
 # memory-game
- memory game in #
+ memory game in c#
