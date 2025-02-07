@@ -13,11 +13,12 @@ namespace memory_game
 {
     public partial class game : Form
     {
+        Random Random = new Random();
         int btn_count = 0;
         int Score = 0;
         int Beurten = 0;
-        Button[] clicked_buttons = new Button[2];
         int time = 0;
+        Button[] clicked_buttons = new Button[2];
         Image[] card_img = new Image[16]
         {
             Properties.Resources.HondFoto1,
@@ -91,7 +92,7 @@ namespace memory_game
             //shuffle cards using fisher-yates shuffle (learned from chatgpt creatued by typing for and tab and that made whole code)
             for (int i = card_img.Length - 1; i > 0; i--)
             {
-                int j = new Random().Next(i + 1);
+                int j = Random.Next(i + 1);
 
                 Image temp = card_img[i];
                 card_img[i] = card_img[j];
@@ -148,7 +149,14 @@ namespace memory_game
             {
                 btn_count = 3;//zorgt er voor dat er niets gebeurt bij de derde klik
                 card.Image = card_img[int.Parse(card.Name.Substring(4)) - 1];
-                clicked_buttons[1] = card;
+                if (card != clicked_buttons[0])
+                {
+                    clicked_buttons[1] = card;
+                }
+                else
+                {
+                    btn_count = 1;
+                }
                 //zelfde detectie
                 await Task.Delay(1000); // 1000 ms = 1 second //veranderen met timer
                 reset_cards();
