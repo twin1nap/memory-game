@@ -157,37 +157,37 @@ namespace memory_game
                 if (card != clicked_buttons[0])
                 {
                     clicked_buttons[1] = card;
+                    //zelfde detectie
+                    await Task.Delay(1000); // 1000 ms = 1 second //veranderen met timer
+                    reset_cards();
+                    btn_count = 0;
+                
+
+                    if (clicked_buttons[0].Tag == clicked_buttons[1].Tag)
+                    {
+                        //Console.WriteLine("ze zijn hetzelfde");
+                        clicked_buttons[0].Visible = false;
+                        clicked_buttons[1].Visible = false;
+                        Score += 10;
+                        if (Score >= 80)
+                        {
+                            timer.Stop();
+                        }
+                    }
+                    Beurten++;
+                    txtScore.Text = "Score: " + Score.ToString();
+                    txtBeurten.Text = "Beurten: " + Beurten.ToString();
+                    clicked_buttons = new Button[2];
+                    //else
+                    //{
+                    //    //Console.WriteLine("ze zijn niet hetzelfde");
+                    //    await Task.Delay(1000); // 1000 ms = 1 second    
+                    //}
                 }
                 else
                 {
                     btn_count = 1;
                 }
-                //zelfde detectie
-                await Task.Delay(1000); // 1000 ms = 1 second //veranderen met timer
-                reset_cards();
-                btn_count = 0;
-                
-
-                if (clicked_buttons[0].Tag == clicked_buttons[1].Tag)
-                {
-                    //Console.WriteLine("ze zijn hetzelfde");
-                    clicked_buttons[0].Visible = false;
-                    clicked_buttons[1].Visible = false;
-                    Score += 10;
-                    if (Score >= 80)
-                    {
-                        timer.Stop();
-                    }
-                }
-                Beurten++;
-                txtScore.Text = "Score: " + Score.ToString();
-                txtBeurten.Text = "Beurten: " + Beurten.ToString();
-                clicked_buttons = new Button[2];
-                //else
-                //{
-                //    //Console.WriteLine("ze zijn niet hetzelfde");
-                //    await Task.Delay(1000); // 1000 ms = 1 second    
-                //}
 
             }
 
