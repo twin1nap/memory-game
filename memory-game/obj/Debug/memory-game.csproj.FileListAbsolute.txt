@@ -21,3 +21,6 @@ C:\Users\tijnd\OneDrive - COG\Documents\GitHub\memory-game\memory-game\obj\Debug
 C:\Users\school\Documents\jaar 1\projecten\memory-game\memory-game\bin\Debug\da\memory-game.resources.dll
 C:\Users\school\Documents\jaar 1\projecten\memory-game\memory-game\obj\Debug\memory_game.game.da.resources
 C:\Users\school\Documents\jaar 1\projecten\memory-game\memory-game\obj\Debug\da\memory-game.resources.dll
+C:\Users\tijnd\OneDrive - COG\Documents\GitHub\memory-game\memory-game\bin\Debug\da\memory-game.resources.dll
+C:\Users\tijnd\OneDrive - COG\Documents\GitHub\memory-game\memory-game\obj\Debug\memory_game.game.da.resources
+C:\Users\tijnd\OneDrive - COG\Documents\GitHub\memory-game\memory-game\obj\Debug\da\memory-game.resources.dll

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
@@ -129,6 +130,10 @@ namespace memory_game
         {
             Button card = sender as Button;
 
+            SoundPlayer sp = new SoundPlayer(CardFlip);
+            //sp.Stream = Properties.Resources.CardFlip;
+            sp.Play();
+
             if (btn_count < 2)
             {
                 btn_count++;
@@ -161,6 +166,8 @@ namespace memory_game
                 await Task.Delay(1000); // 1000 ms = 1 second //veranderen met timer
                 reset_cards();
                 btn_count = 0;
+                
+
                 if (clicked_buttons[0].Tag == clicked_buttons[1].Tag)
                 {
                     //Console.WriteLine("ze zijn hetzelfde");
