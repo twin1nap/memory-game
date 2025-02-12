@@ -151,7 +151,7 @@
     <value>436, 24</value>
   </data>
   <data name="card2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 184</value>
+    <value>175, 175</value>
   </data>
   <data name="card2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1387,7 +1387,7 @@
     <value>436, 438</value>
   </data>
   <data name="card10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 184</value>
+    <value>175, 175</value>
   </data>
   <data name="card10.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
