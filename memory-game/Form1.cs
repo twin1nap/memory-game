@@ -177,11 +177,11 @@ namespace memory_game
                             timer.Stop(); //timer stoppen
                         }
                     }
-                    Beurten++; // berut optellen
+                    Beurten++; // beurten optellen
 
                     //beurt reseten
                     card_clicked_count = 0; // er voor zorgen dat je 
-                    txtScore.Text = "Score: " + Score.ToString(); //score text updaten
+                    txtScore.Text = "Punten: " + Score.ToString(); //score text updaten
                     txtBeurten.Text = "Beurten: " + Beurten.ToString(); // beruten text updaten
                     clicked_buttons = new Button[2]; // array met geklikte knoppen resetten
 
@@ -222,7 +222,7 @@ namespace memory_game
             {
                 time_text += seconds.ToString(); // seconden text(zonder 0 ervoor) toevoegen aan tijd
             }
-            txtTimer.Text = "Timer: " + time_text; //timer updaten
+            txtTimer.Text = "Tijd: " + time_text; //timer updaten
         }
     }
 }

@@ -238,6 +238,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.AliceBlue;
             this.Controls.Add(this.txtBeurten);
             this.Controls.Add(this.txtScore);
             this.Controls.Add(this.txtTimer);

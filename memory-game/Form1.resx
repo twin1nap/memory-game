@@ -2221,17 +2221,20 @@
   <data name="txtTimer.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="txtTimer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 18pt</value>
+  </data>
   <data name="txtTimer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>57, 71</value>
+    <value>12, 24</value>
   </data>
   <data name="txtTimer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 16</value>
+    <value>167, 34</value>
   </data>
   <data name="txtTimer.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
   <data name="txtTimer.Text" xml:space="preserve">
-    <value>Timer: 00:00</value>
+    <value>Tijd: 00:00</value>
   </data>
   <data name="&gt;&gt;txtTimer.Name" xml:space="preserve">
     <value>txtTimer</value>
@@ -2248,17 +2251,20 @@
   <data name="txtScore.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="txtScore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 18pt</value>
+  </data>
   <data name="txtScore.Location" type="System.Drawing.Point, System.Drawing">
-    <value>56, 253</value>
+    <value>11, 206</value>
   </data>
   <data name="txtScore.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 16</value>
+    <value>153, 34</value>
   </data>
   <data name="txtScore.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
   </data>
   <data name="txtScore.Text" xml:space="preserve">
-    <value>Score: 0</value>
+    <value>Punten: 0</value>
   </data>
   <data name="&gt;&gt;txtScore.Name" xml:space="preserve">
     <value>txtScore</value>
@@ -2275,11 +2281,14 @@
   <data name="txtBeurten.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="txtBeurten.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 18pt</value>
+  </data>
   <data name="txtBeurten.Location" type="System.Drawing.Point, System.Drawing">
-    <value>59, 413</value>
+    <value>14, 366</value>
   </data>
   <data name="txtBeurten.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 16</value>
+    <value>168, 34</value>
   </data>
   <data name="txtBeurten.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
