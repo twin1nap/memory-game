@@ -123,7 +123,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="card1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>205, 24</value>
+    <value>218, 24</value>
   </data>
   <data name="card1.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 175</value>
@@ -148,7 +148,7 @@
     <value>Flat</value>
   </data>
   <data name="card2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>436, 24</value>
+    <value>449, 24</value>
   </data>
   <data name="card2.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 175</value>
@@ -357,7 +357,7 @@
 </value>
   </data>
   <data name="card5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>205, 231</value>
+    <value>218, 231</value>
   </data>
   <data name="card5.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 175</value>
@@ -566,7 +566,7 @@
 </value>
   </data>
   <data name="card6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>436, 231</value>
+    <value>449, 231</value>
   </data>
   <data name="card6.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 175</value>
@@ -690,7 +690,7 @@
 </value>
   </data>
   <data name="card3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>666, 24</value>
+    <value>679, 24</value>
   </data>
   <data name="card3.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 175</value>
@@ -814,7 +814,7 @@
 </value>
   </data>
   <data name="card4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>897, 19</value>
+    <value>910, 19</value>
   </data>
   <data name="card4.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 184</value>
@@ -921,7 +921,7 @@
 </value>
   </data>
   <data name="card7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>666, 231</value>
+    <value>679, 231</value>
   </data>
   <data name="card7.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 175</value>
@@ -1028,7 +1028,7 @@
 </value>
   </data>
   <data name="card8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>897, 231</value>
+    <value>910, 231</value>
   </data>
   <data name="card8.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 175</value>
@@ -1206,7 +1206,7 @@
 </value>
   </data>
   <data name="card9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>205, 438</value>
+    <value>218, 438</value>
   </data>
   <data name="card9.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 175</value>
@@ -1384,7 +1384,7 @@
 </value>
   </data>
   <data name="card10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>436, 438</value>
+    <value>449, 438</value>
   </data>
   <data name="card10.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 175</value>
@@ -1505,7 +1505,7 @@
 </value>
   </data>
   <data name="card13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>205, 645</value>
+    <value>218, 645</value>
   </data>
   <data name="card13.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 175</value>
@@ -1626,7 +1626,7 @@
 </value>
   </data>
   <data name="card14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>436, 645</value>
+    <value>449, 645</value>
   </data>
   <data name="card14.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 175</value>
@@ -1763,7 +1763,7 @@
 </value>
   </data>
   <data name="card11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>666, 438</value>
+    <value>679, 438</value>
   </data>
   <data name="card11.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 175</value>
@@ -1900,7 +1900,7 @@
 </value>
   </data>
   <data name="card12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>897, 433</value>
+    <value>910, 433</value>
   </data>
   <data name="card12.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 184</value>
@@ -2049,7 +2049,7 @@
 </value>
   </data>
   <data name="card15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>666, 645</value>
+    <value>679, 645</value>
   </data>
   <data name="card15.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 175</value>
@@ -2198,7 +2198,7 @@
 </value>
   </data>
   <data name="card16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>897, 645</value>
+    <value>910, 645</value>
   </data>
   <data name="card16.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 175</value>
@@ -2318,7 +2318,7 @@
     <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1100, 847</value>
+    <value>1127, 847</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2379,10 +2379,10 @@
 </value>
   </data>
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1118, 894</value>
+    <value>1145, 894</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1118, 894</value>
+    <value>1145, 894</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>memory game</value>
