@@ -12,10 +12,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|memory-game||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EA6B19F-0B1C-49A2-B26A-D83510C2D808}|memory-game.csproj|c:\\users\\school\\documents\\jaar 1\\projecten\\memory-game\\memory-game\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{5EA6B19F-0B1C-49A2-B26A-D83510C2D808}|memory-game.csproj|solutionrelative:properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,8 +36,7 @@
               "ToolTip": "C:\\Users\\school\\Documents\\jaar 1\\projecten\\memory-game\\memory-game\\memory-game.csproj",
               "RelativeToolTip": "memory-game.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-07T10:54:07.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T10:54:07.401Z"
             },
             {
               "$type": "Document",
@@ -49,9 +44,9 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\school\\Documents\\jaar 1\\projecten\\memory-game\\memory-game\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\school\\Documents\\jaar 1\\projecten\\memory-game\\memory-game\\Form1.cs*",
-              "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAlwLMAAAApAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\school\\Documents\\jaar 1\\projecten\\memory-game\\memory-game\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAkwIMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T12:44:49.802Z",
               "EditorCaption": ""
@@ -62,8 +57,8 @@
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\school\\Documents\\jaar 1\\projecten\\memory-game\\memory-game\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\school\\Documents\\jaar 1\\projecten\\memory-game\\memory-game\\Form1.cs [Design]*",
-              "RelativeToolTip": "Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\school\\Documents\\jaar 1\\projecten\\memory-game\\memory-game\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-05T13:30:53.161Z",
               "EditorCaption": " [Design]"
